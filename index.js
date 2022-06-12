@@ -6,7 +6,7 @@ tg.MainButton.text = "Кнопка"; //изменяем текст кнопки
 tg.MainButton.setText("Кнопка активна"); //изменяем текст кнопки иначе
 tg.MainButton.textColor = "#F55353"; //изменяем цвет текста кнопки
 tg.MainButton.color = "#52e588"; //изменяем цвет бэкграунда кнопки
-tg.MainButton.setParams({"color": "#143F6B"}); //так изменяются все параметры
+tg.MainButton.setParams({"color": "#52e588"}); //так изменяются все параметры
 
 btn.addEventListener('click', function(){ //вешаем событие на нажатие html-кнопки
 	if (tg.MainButton.isVisible){ //если кнопка показана
@@ -20,12 +20,12 @@ btn.addEventListener('click', function(){ //вешаем событие на н�
 let btnED = document.getElementById("btnED"); //получаем кнопку активировать/деактивировать
 btnED.addEventListener('click', function(){ //вешаем событие на нажатие html-кнопки
 	if (tg.MainButton.isActive){ //если кнопка показана
-		tg.MainButton.color = "#552950"; //меняем цвет
+		tg.MainButton.setParams({"color": "#552950"});
 		tg.MainButton.setText("Кнопка деактивирована"); 
 		tg.MainButton.disable() //скрываем кнопку
 	}
 	else{ //иначе
-		tg.MainButton.color = "#52e588"; //меняем цвет
+		tg.MainButton.setParams({"color": "#52e588"});
 		tg.MainButton.setText("Кнопка активна"); 
 		tg.MainButton.enable() //показываем
 	}
