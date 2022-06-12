@@ -4,9 +4,9 @@ tg.expand(); //расширяем на все окно
 
 tg.MainButton.text = "Кнопка"; //изменяем текст кнопки
 tg.MainButton.setText("Кнопка активна"); //изменяем текст кнопки иначе
-tg.MainButton.textColor = "#F55353"; //изменяем цвет текста кнопки
+tg.MainButton.textColor = "#FFFFFF"; //изменяем цвет текста кнопки
 tg.MainButton.color = "#52e588"; //изменяем цвет бэкграунда кнопки
-tg.MainButton.setParams({"color": "#52e588"}); //так изменяются все параметры
+// tg.MainButton.setParams({"color": "#52e588"}); //так изменяются все параметры
 
 btn.addEventListener('click', function(){ //вешаем событие на нажатие html-кнопки
 	if (tg.MainButton.isVisible){ //если кнопка показана
