@@ -20,11 +20,13 @@ btn.addEventListener('click', function(){ //вешаем событие на н�
 let btnED = document.getElementById("btnED"); //получаем кнопку активировать/деактивировать
 btnED.addEventListener('click', function(){ //вешаем событие на нажатие html-кнопки
 	if (tg.MainButton.isActive){ //если кнопка показана
-		tg.MainButton.setParams({"color": "#E0FFFF"}); //меняем цвет
+		tg.MainButton.setParams({"color": "#552950"}); //меняем цвет
+		tg.MainButton.setText("Кнопка деактивирована"); 
 		tg.MainButton.disable() //скрываем кнопку
 	}
 	else{ //иначе
-		tg.MainButton.setParams({"color": "#143F6B"}); //меняем цвет
+		tg.MainButton.setParams({"color": "#52e588"}); //меняем цвет
+		tg.MainButton.setText("Кнопка активна"); 
 		tg.MainButton.enable() //показываем
 	}
 });
