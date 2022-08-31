@@ -1,4 +1,4 @@
-/* body{
+ body{
 	color: var(--tg-theme-text-color);
 	background: var(--tg-theme-bg-color);
 	display: flex;
@@ -29,7 +29,7 @@
 #usercard{
 	text-align: center;
 }
- */
+
 
 @keyframes tonext {
   75% {
