@@ -1,4 +1,4 @@
- body{
+/*  body{
 	color: var(--tg-theme-text-color);
 	background: var(--tg-theme-bg-color);
 	display: flex;
@@ -25,7 +25,7 @@
 .button:not(:last-child){
 	margin-bottom: 20px
 }
-
+ */
 #usercard{
 	text-align: center;
 }
